@@ -1,0 +1,46 @@
+{
+	"tables": [
+		"airline",
+		"airplane",
+		"airport",
+		"flight",
+		"leg",
+		"location",
+		"passenger",
+		"person",
+		"pilot",
+		"pilot_licenses",
+		"route",
+		"ticket",
+		"ticket_seats"
+	],
+	"views": [
+		"alternative_airports",
+		"flights_in_the_air",
+		"flights_on_the_ground",
+		"people_in_the_air",
+		"people_on_the_ground",
+		"route_summary"
+	],
+	"procedures": [
+		"add_airplane",
+		"add_airport",
+		"add_person",
+		"add_update_leg",
+		"assign_pilot",
+		"extend_route",
+		"flight_landing",
+		"flight_takeoff",
+		"grant_pilot_license",
+		"offer_flight",
+		"passengers_board",
+		"passengers_disembark",
+		"purchase_ticket_and_seat",
+		"recycle_crew",
+		"remove_passenger_role",
+		"remove_pilot_role",
+		"retire_flight",
+		"simulation_cycle",
+		"start_route"
+	]
+}
